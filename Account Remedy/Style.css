@@ -1,0 +1,32 @@
+.navbar .navbar-nav .nav-item {
+    color: white; 
+    
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.nav-item {
+    font-size: 5px;    
+}
+
+.navbar-text {
+    color: white;
+}
+.row {
+    text-emphasis: white;
+}
+
+.login-header{
+    color: white;
+}
+
+.login {
+    margin: 16px, auto;
+    font-size: 16px;
+}
+
+.footer-copyright{
+    margin-bottom: 6px
+}

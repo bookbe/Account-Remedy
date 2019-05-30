@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Account Remedy</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark text-white" style="background-color: black">
+        <div class="container-fluid">
+                <a class="navbar-brand"> <img src="Stock/logo.JPG" style="width: 120px;" alt="Account Remedy Logo" href="Index.html"></a> 
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav nav-fill flex-sm-row">
+                     <a class="nav-item nav-link" href="statements.html">View Statements</a>
+                     <a class="nav-item nav-link" href="invoices.html">View Invoices</a>
+                     <a class="nav-item nav-link" href="cart.html">Items Selected for Payment</a>
+                     <a class="nav-item nav-link" href="payment.html">Make a Payment</a>
+                     <a class="nav-item nav-link" href="Index.html">Log Off</a>
+                </div>
+                <span class="navbar-text d-none d-xl-inline-block">"Bridging the Receivables Gap"</span>
+            </div>
+            <form class="form-inline">  
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-white my-3 my-sm-0"style="background-color: white;" type="submit">Go</button>
+                </form>
+        </div>
+    </nav>
+    <div class="container text-center" style="background-color: white;">
+    
+        <div class="custom-control custom-radio align-items-center" style="margin-top: 40px; margin-bottom: 40px;">
+           <section class="search-date"> 
+           <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+            <label class="custom-control-label" for="customRadio1"><h3>Search by Invoice Date</h3>
+            <h5>From:  <input type="date" name="fromdate" id="fromdate" value="MM/DD/YYYY"></h5>
+            <h5>To:    <input type="date" name="todate" id="todate" value="MM/DD/YYYY"></h5>
+            </label>
+            </section>
+
+          
+            <section class="search-data">
+            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2"><h3>Search by Invoice Data</h3>
+            <input type="text" id="invoicesearchdata" name="invoicesearchdata" value="Enter Search Data" style="margin-bottom: 10px";>
+            </section>
+            <section class="search-category align-items-center" style="margin-top: 20px; margin-bottom: 10px;">
+            <select class="search-category">
+                <option selected>Choose Search Category</option>
+                <option value="1">Invoice Number</option>
+                <option value="2">Purchase Order Number</option>
+                <option value="3">Reference Number</option>
+                <option value="4">Amount</option>
+              </select>
+              </section>
+              <section class="selected-output align-items-center" style="margin-bottom: 20px;">
+                  <select class="selected-output">
+                  <option selected>Select Output</option>
+                  <option value="1">View</option>
+                  <option value="2">Print</option>
+                  <option value="3">Download as PDF</option>
+                  <option value="4">Add to Cart for Payment</option>
+                  </select>
+                </section>
+                <input class="btn-lg btn-danger" type="submit" value="Search">
+                </label>
+                 </div>
+                          
+
+
+
+
+
+    </div>
+   
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+  <footer class= "page-footer font-sm fixed-bottom" style="background-color: black; padding-bottom: 30px;">
+    <div class= "container" >
+        <div class= "row";>
+            <div class="col-md-4 mx-auto;">
+            <a href="faqs.html">Frequently Asked Questions</a> 
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-4 mx-auto">
+            <a href="faqs.html">Contact Us</a>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-4 mx-auto">
+            <a href=preferences.html>Account Preferences</a>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+      
+    <div class="footer-copyright text-white text-center mx-auto">&copy; 2019 Account Remedy    Web Design by Brent Book</div>
+
+
+</div>   
+</div>
+
+    
+</footer>
+
+
+
+</html>
