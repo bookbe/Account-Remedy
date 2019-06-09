@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Account Remedy</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark text-white" style="background-color: black">
+        <div class="container-fluid">
+                <a class="navbar-brand"> <img src="Stock/logo.JPG" style="width: 120px;" alt="Account Remedy Logo" href="Index.html"></a> 
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav nav-fill flex-sm-row">
+                    <a class="nav-item nav-link" href="statements.html">Statements</a>
+                    <a class="nav-item nav-link" href="invoices.html">Invoices</a>
+                    <a class="nav-item nav-link" href="cart.html">Cart</a>
+                    <a class="nav-item nav-link" href="payment.html">Payment</a>
+                    <a class="nav-item nav-link" href="Index.html">Log Off</a>
+                </div>
+                <span class="navbar-text d-none d-xl-inline-block">"Bridging the Receivables Gap"</span>
+            </div>
+            <form class="form-inline">  
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-white my-3 my-sm-0"style="background-color: white;" type="submit">Go</button>
+                </form>
+        </div>
+    </nav>
+    <div class="container align-text-left" style="background-color: white;">
+            <section class="creditcardoptions">
+            <div class="custom-control custom-radio" style="margin-top: 40px; margin-bottom: 140px;">
+               <div class="form-group align-text-left">
+                    <label for "ccardtype"><h4>Credit Card:</h4></label>
+                             
+                    <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" checked>
+                            <label class="custom-control-label" style="color: blue;" for="customRadioInline1"><i class="fab fa-cc-visa fa-3x"></i></label>
+                          </div>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" style="color:orangered;" for="customRadioInline2"><i class="fab fa-cc-mastercard fa-3x"></i></label>
+                          </div>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" style="color: blue;" for="customRadioInline3"><i class="fab fa-cc-amex fa-3x"></i></label>
+                           </div>
+                           <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" style="color: blue;" for="customRadioInline4"><i class="fab fa-cc-paypal fa-3x"></i></label>
+                            </div>           
+                
+                </div>
+                <div class="form-group">
+                  <label for "cardholder"><h4>Name on Card:</h4></label>&nbsp;<input type="text" id="cardholder" name="cardholder" length="75";>
+                </div>
+                <div class="form-group">
+                  <label for "expiration-date"><h4>Expiration Date: </h4></label>&nbsp;<input type="text" id="expiration" name="expiration" value="MM/YY" maxlength="5";>
+                </div>
+                <div class="form-group">
+                  <label for "ccsecuritycode"><h4>CSV:</h4></label>&nbsp;<input type="number" id="ccsecuritycode" name="ccsecuritycode" value="XXX" maxlength="3";>
+                </div>
+                <div class="form-group">
+                    <label for "accountnbr"><h4>Account Number:</h4></label>&nbsp;<input type="number" id="accountnbr" name="accountnbr" maxlength="8";>
+                </div>
+                <div class="form-group">
+                    <label for "acctname"><h4>Name on Account:</h4></label>&nbsp;<input type="text" id="acctname" name="acctname"  maxlength="30";>
+                </div>
+                <div class="container">
+                <a class="btn-lg btn-danger align-items-center" href="paymentconfirmation.html" role="submit">Submit</a>
+                </div>
+              </section>
+              </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  <footer class= "page-footer font-sm mx-auto d-flex" style="background-color: black; padding-bottom: 30px;">
+    <div class= "container text-white text-center">
+        <div class= "row";>
+            <div class="col-md-4 mx-auto">
+            <a class= "text-white" href="faqs.html">Frequently Asked Questions</a> 
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-4 mx-auto">
+            <a class ="text-white" href="faqs.html">Contact Us</a>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-4 mx-auto">
+            <a class="text-white" href=preferences.html>Account Preferences</a>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+          </div>
+      
+    <div class="footer-copyright text-white text-center mx-auto">&copy; 2019 Account Remedy    Web Design by Brent Book</div>
+
+</div>
+
+    
+</footer>
+
+
+
+</html> 
