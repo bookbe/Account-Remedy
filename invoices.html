@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark text-white" style="background-color: black">
         <div class="container-fluid">
-                <a class="navbar-brand"> <img src="Stock/logo.JPG" style="width: 120px;" alt="Account Remedy Logo" href="Index.html"></a> 
+                <a class="navbar-brand" href="Index.html"> <img src="Stock/logo.JPG" style="width: 120px;" alt="Account Remedy Logo"></a> 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,7 +48,7 @@
             <section class="search-data">
             <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
             <label class="custom-control-label" for="customRadio2"><h3>Search by Invoice Data</h3>
-            <input type="text" id="invoicesearchdata" name="invoicesearchdata" value="Enter Search Data" style="margin-bottom: 10px";>
+            <input type="text" id="invoicesearchdata" name="invoicesearchdata" placeholder="Enter Search Data" style="margin-bottom: 10px";>
             </section>
             <section class="search-category align-items-center" style="margin-top: 20px; margin-bottom: 10px;">
             <select class="search-category">
@@ -65,7 +65,7 @@
                   <option value="1">View</option>
                   <option value="2">Print</option>
                   <option value="3">Download as PDF</option>
-                  <option value="4">Add to Cart for Payment</option>
+                 
                   </select>
                 </section>
                 <input class="btn-lg btn-danger" type="submit" value="Search" onclick="location.href='invoice-table.html';"/>
